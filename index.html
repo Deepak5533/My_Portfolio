@@ -265,7 +265,28 @@
           bar.style.backgroundColor = "brown";
         }
       }
+            document.getElementById("form").addEventListener('submit',(e)=>{
+        
+        alert("The form is submitted");
+        document.getElementById("gg").reset();
+      })
     </script>
+
+    <script
+ src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js">
+</script>
+
+<script>
+ document.addEventListener("DOMContentLoaded", function () {
+            var typed = new Typed(".auto-type", {
+                strings: ["Full Stack Developer"],
+                typeSpeed: 50,
+                backSpeed: 50,
+                loop: true,
+            });
+        });
+</script>
+
 
     <!-- Bootstrap JS and Popper.js -->
     <script
